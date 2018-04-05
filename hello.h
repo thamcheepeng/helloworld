@@ -2,4 +2,4 @@
 example include file
 */
 
-int printHello(void);
+int printHello(char*);
