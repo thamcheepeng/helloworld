@@ -9,11 +9,12 @@ int main() {
   {
  	printHello();
 	perror("Today you are unlucky");
-	return -1;
+	return(-1);
   }
   else
   {
 	printHello();
+	return(0);
   }
-  return(0);
+  
 }
