@@ -3,7 +3,7 @@
 
 int main() {
   
-  printHello();
+  printHello("I am cool");
 
   return(0);
 }

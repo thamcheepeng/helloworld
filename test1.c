@@ -7,13 +7,12 @@ int main() {
   int ret = -1;
   if (ret<0)
   {
- 	printHello();
-	perror("Today you are unlucky");
+ 	printHello("I are unlucky");
 	return -1;
   }
   else
   {
-	printHello();
+	printHello("I am fantastic");
   }
   return(0);
 }

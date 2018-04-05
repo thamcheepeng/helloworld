@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <hello.h>
 
-int printHello(void) {
+int printHello( char* str) {
 
-  printf("Hello world, jack!\n");
-
+  printf("%s\n",str);
   return 0;
 }
