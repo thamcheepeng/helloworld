@@ -4,7 +4,7 @@
 
 int main() {
   
-  int ret = 100;
+  int ret = -1;
   if (ret<0)
   {
  	printHello();
