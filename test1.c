@@ -8,7 +8,7 @@ int main() {
   if (ret<0)
   {
  	printHello("I are unlucky");
-	return(-1);
+	return(1);
   }
   else
   {
